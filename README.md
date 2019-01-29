@@ -2,7 +2,7 @@
 check code coverage of your application using jacoco
 
 # plugin 
-
+<!-- plugin -->
 <build>
 		<plugins>
 			<plugin>
@@ -31,7 +31,6 @@ check code coverage of your application using jacoco
 						</goals>
 						<configuration>
 							<!-- Sets the path to the file which contains the execution data. -->
-
 							<dataFile>target/jacoco.exec</dataFile>
 							<!-- Sets the output directory for the code coverage report. -->
 							<outputDirectory>target/my-reports</outputDirectory>
